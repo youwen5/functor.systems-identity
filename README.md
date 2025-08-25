@@ -12,7 +12,7 @@ As an organization, we take our brand unseriously, and allow free modification o
 
 ## Insider details
 
-The logo for our organization comes in two variants—one including only our graphical logo and one including both the logo and text below it that reads "functor.systems".
+The logo for our organization comes in two variants—one including only our graphical logo and one including both the logo and text below it that reads "functor.systems". Our logos are designed in [Graphite](https://graphite.rs/), a free and open-source vector graphics editor, and exported in SVG and PNG formats, in addition to the Graphite project files that are available in this repository.
 
 The primary graphical symbol of our organization depicts a limit point with three arrows pointing onto a [torus](https://en.wikipedia.org/wiki/Torus), the quintessential topological object of genus one. Each arrow represents a projection morphism, and the torus wireframe represents a partial wiring diagram of a [finite complete category](https://ncatlab.org/nlab/show/finitely+complete+category). Our logo is then the limit diagram of the corresponding [inclusion functor](https://ncatlab.org/nlab/show/full+subcategory), which embeds this category into a larger structure.
 

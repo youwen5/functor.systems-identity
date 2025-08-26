@@ -11,8 +11,8 @@ We are functor.systems, subtle and elegant, intellectual yet down-to-earth, and
 curiously irreverent. This repository contains [assets](assets) which best
 represent our organization and its members as a whole (a
 [homotopy-coherent](https://ncatlab.org/nlab/show/homotopy+coherent+diagram)
-collective, to be specific). There is also a
-[tarball](./functor-dot-systems.tar.gz) that packages these assets together
+collective, to be specific). Click to obtain a
+[tarball](https://code.functor.systems/functor.systems/identity/archive/main.tar.gz) that packages these assets together
 nicely.
 
 As an organization, we take our brand unseriously, and allow free modification

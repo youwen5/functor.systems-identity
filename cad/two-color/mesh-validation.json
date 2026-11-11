@@ -1,0 +1,274 @@
+{
+  "units": "millimetres",
+  "printer": "Prusa XL, two tools, 0.4 mm nozzles",
+  "tool_1": "white",
+  "tool_2": "black",
+  "files": {
+    "stl-parts/functor-plaque-black-white-WHITE-tool1.stl": {
+      "watertight": true,
+      "consistent_winding": true,
+      "all_shells_positive_volume": true,
+      "shells": 1,
+      "volume_mm3": 161130.7424997535,
+      "triangles": 24588,
+      "bounds_mm": [
+        [
+          -80.0,
+          -3.0,
+          6.0
+        ],
+        [
+          80.0,
+          3.0,
+          174.0
+        ]
+      ],
+      "sha256": "1da248b0de4294bccc0b067720c44c1eea0b670b57ebce76c9d38e2f3d65b388"
+    },
+    "stl-parts/functor-plaque-black-white-BLACK-tool2.stl": {
+      "watertight": true,
+      "consistent_winding": true,
+      "all_shells_positive_volume": true,
+      "shells": 18,
+      "volume_mm3": 78544.36722605536,
+      "triangles": 26012,
+      "bounds_mm": [
+        [
+          -84.0,
+          -28.0,
+          0.0
+        ],
+        [
+          84.0,
+          28.0,
+          160.4078826904297
+        ]
+      ],
+      "sha256": "d773a5e7c4c9e016bd89e9c7c9250d5aa9cae33b7302af26c2ed0b499636bb35"
+    },
+    "functor-plaque-black-white.3mf": {
+      "format": "3MF",
+      "tool_assignments": [
+        1,
+        2
+      ],
+      "display_colors": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "volume_round_trip_validated": true,
+      "sha256": "de8dd50da72cb506b42f1c5744e61bdc5765a2a065a09959b52815ee5fcb8347"
+    },
+    "stl-parts/functor-sculpture-black-white-WHITE-tool1.stl": {
+      "watertight": true,
+      "consistent_winding": true,
+      "all_shells_positive_volume": true,
+      "shells": 4,
+      "volume_mm3": 232244.02374361167,
+      "triangles": 157218,
+      "bounds_mm": [
+        [
+          -106.0,
+          -69.0,
+          17.0
+        ],
+        [
+          106.0,
+          69.0,
+          201.48667907714844
+        ]
+      ],
+      "sha256": "1d868bee246144c07def3062fbb0be1f6cccb8b4b3fd4ab3e79eeb40c3f1a208"
+    },
+    "stl-parts/functor-sculpture-black-white-BLACK-tool2.stl": {
+      "watertight": true,
+      "consistent_winding": true,
+      "all_shells_positive_volume": true,
+      "shells": 19,
+      "volume_mm3": 599146.922447224,
+      "triangles": 174442,
+      "bounds_mm": [
+        [
+          -109.0,
+          -72.0,
+          0.0
+        ],
+        [
+          109.0,
+          72.0,
+          202.0
+        ]
+      ],
+      "sha256": "829d0bbeb68423e5dec1a769505dbf83c62559d6960c196882a06fd8aca5904f"
+    },
+    "functor-sculpture-black-white.3mf": {
+      "format": "3MF",
+      "tool_assignments": [
+        1,
+        2
+      ],
+      "display_colors": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "volume_round_trip_validated": true,
+      "sha256": "b55e83fbb309bf0497fbd0c3e5630952dcad8b4952f5361dcf72e6b506fcae8b"
+    },
+    "stl-parts/optional-flat-plaque/01-panel-black-white-WHITE-tool1.stl": {
+      "watertight": true,
+      "consistent_winding": true,
+      "all_shells_positive_volume": true,
+      "shells": 1,
+      "volume_mm3": 161130.74249999723,
+      "triangles": 24588,
+      "bounds_mm": [
+        [
+          -80.0,
+          0.0,
+          0.0
+        ],
+        [
+          80.0,
+          168.0,
+          6.0
+        ]
+      ],
+      "sha256": "30c08213d626713448646ea95a0534b36cb958c170c8a87a9f16915a838fb2f5"
+    },
+    "stl-parts/optional-flat-plaque/01-panel-black-white-BLACK-tool2.stl": {
+      "watertight": true,
+      "consistent_winding": true,
+      "all_shells_positive_volume": true,
+      "shells": 17,
+      "volume_mm3": 5275.148694628732,
+      "triangles": 25816,
+      "bounds_mm": [
+        [
+          -70.11000061035156,
+          9.59000015258789,
+          5.980000019073486
+        ],
+        [
+          70.61000061035156,
+          154.4078826904297,
+          8.800000190734863
+        ]
+      ],
+      "sha256": "14422f0989ea6098c23debbddb67150f0e6643a9dd40f9cff951a0b3191f8f11"
+    },
+    "optional-flat-plaque/01-panel-black-white.3mf": {
+      "format": "3MF",
+      "tool_assignments": [
+        1,
+        2
+      ],
+      "display_colors": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "volume_round_trip_validated": true,
+      "sha256": "fc30528b96f0b295a17d71176ff4a6c107f3bf97e27763e1b44369750753be64"
+    },
+    "optional-flat-plaque/02-stand-BLACK-tool2.stl": {
+      "watertight": true,
+      "consistent_winding": true,
+      "all_shells_positive_volume": true,
+      "shells": 1,
+      "volume_mm3": 72851.14103865609,
+      "triangles": 284,
+      "bounds_mm": [
+        [
+          -84.0,
+          -28.0,
+          0.0
+        ],
+        [
+          84.0,
+          28.0,
+          8.0
+        ]
+      ],
+      "sha256": "2bafb01bb3f6e7f4fd12f1c56799f2466dce59d5778116fd0d669dd983516d03"
+    }
+  },
+  "models": {
+    "functor-plaque-black-white": {
+      "size_mm": [
+        168.0,
+        56.0,
+        174.0
+      ],
+      "fits_prusa_xl": true,
+      "intermaterial_overlap_mm3": -4.075699170996824e-14,
+      "missing_geometry_mm3": 9.745650571129078e-13,
+      "extra_geometry_mm3": 4.252308683123929e-14,
+      "same_coordinate_frame": true
+    },
+    "functor-sculpture-black-white": {
+      "size_mm": [
+        218.0,
+        144.0,
+        202.0
+      ],
+      "fits_prusa_xl": true,
+      "intermaterial_overlap_mm3": -3.788219596771353e-12,
+      "missing_geometry_mm3": -3.766455726832505e-11,
+      "extra_geometry_mm3": -5.0063008145936384e-12,
+      "same_coordinate_frame": true
+    },
+    "optional-flat-plaque/01-panel-black-white": {
+      "size_mm": [
+        160.0,
+        168.0,
+        8.800000190734863
+      ],
+      "fits_prusa_xl": true,
+      "intermaterial_overlap_mm3": 6.65093046475182e-14,
+      "missing_geometry_mm3": 8.661224694446334e-14,
+      "extra_geometry_mm3": -1.5911571647937717e-12,
+      "same_coordinate_frame": true
+    }
+  },
+  "source_sha256": {
+    "functor-desk-plaque.fs": "d37f3d8f2265771341e14f33266c8b57d9ccbac2f59f2baa4a3f619a0d96f88c",
+    "functor-sculpture.fs": "8aad91543a9ee3ae32068cb193dfabd1b24b7f3e569c0bb386c7134f336afa2b",
+    "onshape-model.json": "6845cffa4b3d87b22034ee019366b1928237b6701d2dcfe71a867fef885204c8",
+    "onshape-sculpture.json": "21b752de865c03a6708414d82eb7bc681fadffaef9b11bf68990caed5e8b67ce"
+  },
+  "prusaslicer_validation": {
+    "version": "PrusaSlicer-2.9.6+UNKNOWN based on Slic3r (with GUI support)",
+    "files": {
+      "functor-plaque-black-white.3mf": {
+        "manifold": true,
+        "objects": 1,
+        "material_volumes": 2,
+        "tool_assignments_preserved": [
+          1,
+          2
+        ],
+        "mesh_repairs": 0
+      },
+      "functor-sculpture-black-white.3mf": {
+        "manifold": true,
+        "objects": 1,
+        "material_volumes": 2,
+        "tool_assignments_preserved": [
+          1,
+          2
+        ],
+        "mesh_repairs": 0
+      },
+      "optional-flat-plaque/01-panel-black-white.3mf": {
+        "manifold": true,
+        "objects": 1,
+        "material_volumes": 2,
+        "tool_assignments_preserved": [
+          1,
+          2
+        ],
+        "mesh_repairs": 0
+      }
+    },
+    "scope": "Native import/export round-trip; no filament-specific slicing or physical print test"
+  }
+}

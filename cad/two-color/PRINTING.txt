@@ -1,0 +1,62 @@
+FUNCTOR.SYSTEMS — BLACK / WHITE, PRUSA XL
+
+Two tools, 0.4 mm nozzles. Units: millimetres; use 100% scale.
+  Tool 1: WHITE — light backing, torus core, ball, pedestal cap, sign face.
+  Tool 2: BLACK — all formerly colored/dark artwork, arrows, wireframe,
+                  lettering, structural supports, sign frame and base.
+Use the same filament type for both colors so they bond and share settings.
+
+MAIN FILES
+  functor-plaque-black-white.3mf: 168 x 56 x 174 mm, assembled upright.
+  functor-sculpture-black-white.3mf: 218 x 144 x 202 mm, assembled upright.
+Both fit the XL's 360 x 360 x 360 mm build volume at full scale.
+Print separately, allowing room for generated supports and a wipe tower.
+
+PRUSASLICER
+  Select your Original Prusa XL 2-tool, 0.4 mm printer preset and your actual
+  filament presets. Import a 3MF. It contains one object with two material
+  volumes, named White - tool 1 and Black - tool 2, assigned to those tools.
+  Set the filament display colors to white and black in your chosen presets.
+  The file includes standard 3MF display colors and PrusaSlicer tool metadata,
+  but deliberately contains no machine, temperature or filament profile.
+  Keep the volumes together; do not split them into separate objects or let
+  the slicer drop each volume to the bed. Their shared alignment is required.
+  The decorative columns and sign posts remain permanent parts of the print.
+  Enable supports for the upright sculpture and upright plaque. Inspect
+  the sliced preview under the torus, arrows, floating ball and sign.
+  Use one of the two loaded filaments for supports; no third tool is required.
+  Start with 0.12-0.16 mm layers, 3-4 perimeters and 15-20% infill, adjusting
+  for your filament. Review fine lettering and the 0.88 mm wireframe ribs.
+
+EASIER PLAQUE OPTION
+  optional-flat-plaque/01-panel-black-white.3mf: 160 x 168 x 8.8 mm.
+  optional-flat-plaque/02-stand-BLACK-tool2.stl: 168 x 56 x 8 mm.
+  Print the panel flat as supplied, relief upward, with both tools. Print
+  the stand black, slot upward. These orientations do not need supports.
+  Glue the panel into the stand; the seat has 0.25 mm clearance per side.
+
+STL FALLBACK
+  STL cannot reliably store material assignments. The stl-parts folder
+  therefore contains separate, aligned WHITE and BLACK files for each model.
+  Select BOTH matching files in one import and accept loading them as one
+  object with multiple parts. Assign WHITE to tool 1 and BLACK to tool 2.
+  Center and move the complete object together. Never auto-arrange its parts.
+  Each color can contain multiple closed shells joined by the other material.
+
+VERIFICATION
+  Each saved STL was reloaded and checked for closed shells, consistent
+  winding and positive volume. The color partition was checked for overlaps,
+  missing geometry and fit. 3MF face ranges, tool assignments, colors and
+  volume geometry were checked after writing. See mesh-validation.json.
+  Derived locally from the saved Onshape FeatureScript geometry. No G-code
+  is supplied. Final support layout and filament settings require slicing;
+  these files have not been physically print-tested.
+
+REFERENCES
+  Prusa XL dimensions: https://www.prusa3d.com/p/prusa-xl-business/
+  PrusaSlicer 3MF metadata: https://github.com/prusa3d/PrusaSlicer/blob/version_2.9.0/src/libslic3r/Format/3mf.cpp
+  Support settings: https://help.prusa3d.com/article/support-material_1698
+
+LICENSE
+  Artwork: functor.systems identity repository, CC BY-NC-SA; see LICENSE.txt.
+  Attribution: https://functor.systems

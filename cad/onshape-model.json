@@ -1,0 +1,22 @@
+{
+  "name": "functor.systems desk plaque",
+  "url": "https://cad.onshape.com/documents/5dcfcdd56abddf1f51e0eec4/w/a6a8d52f4bc89d39074449de/e/ef3dc949fe58c5349aa8d275",
+  "documentId": "5dcfcdd56abddf1f51e0eec4",
+  "workspaceId": "a6a8d52f4bc89d39074449de",
+  "partStudioId": "ef3dc949fe58c5349aa8d275",
+  "featureId": "FlLQCQJQ1U1gIa4_0",
+  "featureName": "FunctorDeskPlaque",
+  "featurescriptVersion": 3112,
+  "source": "functor-desk-plaque.fs",
+  "generator": "generate_plaque.py",
+  "sourceArtwork": [
+    "../assets/canonical/hi-res-text.svg",
+    "../assets/canonical/hi-res-text.png"
+  ],
+  "defaultSizeMm": { "width": 168, "depth": 56, "height": 174 },
+  "panelSizeMm": { "width": 160, "thickness": 6, "height": 168 },
+  "reliefDepthMm": { "wireframe": 1.2, "wordmark": 1.8, "arrows": 2.4, "ring": 2.8 },
+  "arrowColors": ["#ac2f3b", "#0f62fe", "#42be65"],
+  "construction": "Separate colored solids meet the backing at its front face; the base has a matching seat for the panel.",
+  "validation": { "onshapeTestPassed": true, "notices": [], "solidCount": 41, "viewsInspected": ["top", "front", "left"] }
+}

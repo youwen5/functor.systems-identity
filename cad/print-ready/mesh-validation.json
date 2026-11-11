@@ -1,0 +1,141 @@
+{
+  "units": "millimetres",
+  "method": "Manifold mesh reconstruction from saved FeatureScript geometry",
+  "target": "General FDM, 0.4 mm nozzle, single material then paint",
+  "files": {
+    "functor-plaque-complete.stl": {
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_volume": true,
+      "finite_vertices": true,
+      "components": 1,
+      "size_mm": [
+        168.0,
+        56.0,
+        174.0
+      ],
+      "bounds_mm": [
+        [
+          -84.0,
+          -28.0,
+          0.0
+        ],
+        [
+          84.0,
+          28.0,
+          174.0
+        ]
+      ],
+      "triangles": 24674,
+      "volume_mm3": 239675.1099,
+      "bytes": 1233784,
+      "sha256": "2ee8175febbe184bda98787028b96c3df1c0ee4a9ce91db687204c6156a22861",
+      "print_note": "Assembled one-piece version. Upright orientation; supports needed for relief overhangs. The two-piece option is easier to print."
+    },
+    "plaque-two-piece/01-panel-flat.stl": {
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_volume": true,
+      "finite_vertices": true,
+      "components": 1,
+      "size_mm": [
+        160.0,
+        168.0,
+        8.8
+      ],
+      "bounds_mm": [
+        [
+          -80.0,
+          0.0,
+          0.0
+        ],
+        [
+          80.0,
+          168.0,
+          8.8
+        ]
+      ],
+      "triangles": 24570,
+      "volume_mm3": 166405.8915,
+      "bytes": 1228584,
+      "sha256": "15441c2dbba6a6c42e166a83eabd5e090812b4bea0f89947d2ef982a6eca9b93",
+      "print_note": "Recommended plaque face. Print as oriented, artwork upward; no supports."
+    },
+    "plaque-two-piece/02-stand.stl": {
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_volume": true,
+      "finite_vertices": true,
+      "components": 1,
+      "size_mm": [
+        168.0,
+        56.0,
+        8.0
+      ],
+      "bounds_mm": [
+        [
+          -84.0,
+          -28.0,
+          0.0
+        ],
+        [
+          84.0,
+          28.0,
+          8.0
+        ]
+      ],
+      "triangles": 284,
+      "volume_mm3": 72851.141,
+      "bytes": 14284,
+      "sha256": "2bafb01bb3f6e7f4fd12f1c56799f2466dce59d5778116fd0d669dd983516d03",
+      "print_note": "Print flat as oriented, slot upward, no supports. Glue panel into slot after painting; mask joint surfaces."
+    },
+    "functor-sculpture-complete.stl": {
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_volume": true,
+      "finite_vertices": true,
+      "components": 1,
+      "size_mm": [
+        218.0,
+        144.0,
+        202.0
+      ],
+      "bounds_mm": [
+        [
+          -109.0,
+          -72.0,
+          0.0
+        ],
+        [
+          109.0,
+          72.0,
+          202.0
+        ]
+      ],
+      "triangles": 166196,
+      "volume_mm3": 831390.9459,
+      "bytes": 8309884,
+      "sha256": "d569b8de3993342d007bbb74f4d590afeecc378354334bae9d3469de2d7e409c",
+      "print_note": "Print upright on the broad base. Supports are required under the torus, sign and other overhangs. Use a bed larger than 218 x 144 mm and >202 mm Z capacity."
+    }
+  },
+  "source_sha256": {
+    "functor-desk-plaque.fs": "d37f3d8f2265771341e14f33266c8b57d9ccbac2f59f2baa4a3f619a0d96f88c",
+    "functor-sculpture.fs": "8aad91543a9ee3ae32068cb193dfabd1b24b7f3e569c0bb386c7134f336afa2b",
+    "onshape-model.json": "6845cffa4b3d87b22034ee019366b1928237b6701d2dcfe71a867fef885204c8",
+    "onshape-sculpture.json": "21b752de865c03a6708414d82eb7bc681fadffaef9b11bf68990caed5e8b67ce"
+  },
+  "sculpture_volume_comparison": {
+    "onshape_reference_mm3": 831697.5415,
+    "stl_mm3": 831390.9459,
+    "relative_difference": 0.0003686383387006808
+  },
+  "print_adjustments": [
+    "Raised artwork outlines have a 0.01 mm outward offset to join point-touching pixel details and prevent non-manifold STL seams.",
+    "Coincident relief/backing interfaces overlap internally by 0.02 mm before Boolean fusion, with no change to external dimensions.",
+    "Plaque two-piece stand recess has 0.25 mm clearance per side for fitting and glue.",
+    "All main STLs are fused into one connected closed solid; colors are intentionally omitted for painting.",
+    "Curved sections are tessellated to approximately 0.015 mm chordal deviation; binary STL round-trip is validated."
+  ]
+}

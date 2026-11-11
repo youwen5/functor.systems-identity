@@ -1,0 +1,39 @@
+{
+  "name": "functor.systems limit sculpture",
+  "url": "https://cad.onshape.com/documents/5dcfcdd56abddf1f51e0eec4/w/5bb8852aecfdaaaba4600851/e/ef3dc949fe58c5349aa8d275",
+  "previousVersionUrl": "https://cad.onshape.com/documents/5dcfcdd56abddf1f51e0eec4/w/45b87e39d29146fe6202230c/e/ef3dc949fe58c5349aa8d275",
+  "documentId": "5dcfcdd56abddf1f51e0eec4",
+  "workspaceId": "5bb8852aecfdaaaba4600851",
+  "partStudioId": "ef3dc949fe58c5349aa8d275",
+  "featureId": "Frd4rSXqebJwLFN_0",
+  "featureName": "FunctorLimitSculpture",
+  "featurescriptVersion": 3112,
+  "source": "functor-sculpture.fs",
+  "defaultSizeMm": { "width": 218, "depth": 144, "height": 202 },
+  "torus": { "majorRadiusMm": 43, "tubeRadiusMm": 14, "centerHeightMm": 104, "forwardTiltDegrees": 32 },
+  "wireframe": { "meridians": 32, "parallels": 12, "ribRadiusMm": 0.44, "construction": "Connected solid circular ribs inlaid into the torus surface" },
+  "node": { "sphereRadiusMm": 11.8, "centerHeightMm": 189.7, "rimMajorRadiusMm": 11.75, "rimTubeRadiusMm": 0.55 },
+  "arrows": { "shaftRadiusMm": 1.95, "headLengthMm": 14, "headBaseRadiusMm": 5.6, "colors": ["#0f62fe", "#ac2f3b", "#42be65"] },
+  "construction": "Two broad tapered graphite columns hold the tilted torus above an expanded pedestal. Three solid arrows meet the torus and sphere. Ahead of the sculpture, a freestanding ivory sign with a graphite frame stands on two rectangular posts and carries deep charcoal lettering. Colored parts have matching seats without volume overlaps.",
+  "torusSupports": { "count": 2, "baseDiameterMm": 16, "topDiameterMm": 12, "crownEmbedDepthMm": 6 },
+  "sign": {
+    "widthMm": 204,
+    "heightMm": 36,
+    "bottomAboveDeskMm": 26,
+    "ivoryFaceSizeMm": [200, 32],
+    "letterHeightMm": 27.04,
+    "letterDepthMm": 2.8,
+    "letterScaleVsPrevious": 1.9117647059,
+    "postSectionMm": [9, 5],
+    "postSpacingMm": 164
+  },
+  "validation": {
+    "onshapeTestPassed": true,
+    "notices": [],
+    "solidCount": 43,
+    "solidVolumeMm3": 831697.5415,
+    "connectedBodyChecks": ["torus", "sphere", "blue arrow", "red arrow", "green arrow", "wireframe", "sign frame and posts"],
+    "viewsInspected": ["top", "front", "left"]
+  },
+  "previews": ["sculpture-top.png", "sculpture-front.png", "sculpture-left.png"]
+}

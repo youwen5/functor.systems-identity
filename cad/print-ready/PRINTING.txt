@@ -1,0 +1,57 @@
+FUNCTOR.SYSTEMS — PRINT FILES
+Units: millimetres. Import at 100% scale.
+Target: general FDM, 0.4 mm nozzle, single filament, paint afterward.
+
+RECOMMENDED PLAQUE PRINT (TWO PIECES)
+  plaque-two-piece/01-panel-flat.stl: 160 x 168 x 8.8 mm.
+  plaque-two-piece/02-stand.stl: 168 x 56 x 8 mm.
+  Both files are already oriented for printing. Keep the artwork / slot upward.
+  Supports are not needed for these two files. Glue the panel into the stand.
+  The stand includes 0.25 mm fitting clearance per side. Fit before painting,
+  and mask the joint faces so paint does not consume the clearance.
+
+ONE-PIECE PLAQUE
+  functor-plaque-complete.stl: 168 x 56 x 174 mm, assembled and fused.
+  Print upright as supplied. Relief overhangs can require supports; the flat,
+  two-piece option above gives a cleaner face and uses less support material.
+
+SCULPTURE
+  functor-sculpture-complete.stl: 218 x 144 x 202 mm.
+  This is the latest version: large raised sign and thick tapered supports.
+  Print upright with the pedestal flat on the bed. Enable supports, inspect
+  the layer preview under the torus and sign, and support other overhangs as
+  needed. The angled columns are part of the design, not removable supports.
+  Leave room on the bed for supports, skirt or brim beyond the model footprint.
+  If your usable bed is only 220 mm wide, reduce scale slightly to leave room;
+  scaling down also reduces the 0.88 mm wireframe rib diameter and fine text.
+
+SLICER STARTING POINTS (ADJUST TO YOUR PRINTER AND FILAMENT)
+  0.12–0.16 mm layers for the logo and sculpture; 0.20 mm is fine for the stand.
+  3–4 walls, 15–20% infill, and at least 4 top/bottom layers.
+  Use variable-width walls / thin-feature handling if your slicer supports it.
+  Check support contact and removal access around the arrow shafts and ribs.
+  Some tiny bitcrushed letter details may merge at a 0.4 mm nozzle.
+  No printer-specific G-code is included and no physical print was tested.
+
+FINISHING
+  Remove supports, lightly sand, and prime. Paint the backing/torus/node ivory,
+  the frame/base/wireframe/wordmark charcoal, and the arrows:
+    blue #0f62fe; red #ac2f3b; green #42be65.
+
+VERIFICATION AND PROVENANCE
+  Every saved STL was reloaded and checked for closed/watertight edges,
+  consistent winding, positive volume, one connected component, and dimensions.
+  See mesh-validation.json for the measurements, triangle counts and checksums.
+  Generated locally from the saved FeatureScript outlines and analytic model
+  parameters because the connected Onshape MCP does not offer file export.
+  The design is retained; internal coincident faces are fused away. Raised
+  artwork has a 0.01 mm outline expansion to eliminate point-touching seams.
+  Geometry validation is not a material-strength or printer-specific test.
+
+SUPPORT AND LAYER-HEIGHT REFERENCES
+  https://help.prusa3d.com/article/support-material_1698
+  https://help.prusa3d.com/article/layers-and-perimeters_1748
+
+LICENSE
+  Artwork from the functor.systems identity repository, CC BY-NC-SA; see LICENSE
+  in the repository. Attribution: https://functor.systems
